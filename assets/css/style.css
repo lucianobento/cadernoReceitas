@@ -1,0 +1,47 @@
+/* reset */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* main */
+.main {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+/* títulos */
+h2 {
+    color: coral;
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* subtítulos */
+.subtitulo {
+    font-size: 1.3rem;
+}
+
+/* imagem */
+img {
+    width: 90% !important;
+
+    margin: auto;
+    display: block;
+}
+
+/* div receitas */
+.item {
+    display: none;
+}
+
+.item.active {
+    display: block;
+}
+
+/* estilos */
+.font-bold {
+    font-weight: bold;
+}
